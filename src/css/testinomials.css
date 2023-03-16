@@ -1,0 +1,39 @@
+legend img{
+    height:90px;
+    border-radius: 50%;
+}
+fieldset{
+    /* border: 2px solid black; */
+    margin-left: 1%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+fieldset:hover{
+    border:2px solid #3f51b5 !important;
+    
+}
+.testi-container{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.border-bottom-line{
+    border-bottom: 1px solid rgb(150, 150, 150);
+    margin-top: 5%;
+}
+.arrow-container{
+    display: flex;
+    margin-top: 5%;
+}
+.username-container{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.margin-setter{
+    margin-left: 2%;
+    margin-right: 2%;
+}

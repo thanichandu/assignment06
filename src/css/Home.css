@@ -1,0 +1,46 @@
+.body-container{
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+@media (max-width:500px) {
+    .body-container{
+        /* background-color: red; */
+        flex-direction: column;
+    }
+    .body-container .app-description{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+.home-right-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+ 
+.app-description{
+    
+    /* margin-left:20%; */
+    /* margin-top:15%; */
+    /* border:1px solid black; */
+    width:60%;
+    height: 60%;
+    
+}
+.myTypography{
+    margin-top: 3% !important;
+    /* border:1px solid black; */
+}
+.MuiButtonBase-root.app-desc-button{
+    border-radius: 50px;
+    border: 1px solid rgba(63, 81, 181, 0.5);
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10% ;
+}

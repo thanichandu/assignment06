@@ -1,0 +1,6 @@
+.h1-div{
+    /* border: 2px solid black; */
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}

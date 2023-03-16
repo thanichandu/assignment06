@@ -1,0 +1,213 @@
+
+.myTypography{
+    margin-top: 3% !important;
+    /* border:1px solid black; */
+}
+
+.slider-switch{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+    
+
+
+h1{
+    font-size: 44px !important;
+    font-weight: normal !important;
+    font-family: Helvetica,sans-serif !important;
+    margin-top: 3%;
+    line-height: 1.1 !important;
+}
+.app-desc-button{
+    border-radius: 50px;
+    border: 1px solid rgba(63, 81, 181, 0.5);
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10% ;
+}
+.playstore-buttons{
+    display: flex;
+    /* border: 2px solid black; */
+    /* width: 70%; */
+    /* margin-top: 10% !important; */
+    
+}
+.playstore-buttons button{
+    color: #fff;
+    background-color: #3f51b5;
+    margin-left: 3%;
+    width: auto !important;
+    height: 48px !important;
+    padding: 0 16px !important;
+    min-width: 48px !important;
+    min-height: auto !important;
+    border-radius: 24px !important;
+    
+}
+.app-features-container{
+    display: flex;
+    margin-top: 6%;
+    /* border: 2px solid black; */
+    
+}
+.app-features{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    max-width: 50%;
+    flex-direction: column;
+}
+.app-features-heading{
+    margin-left: 0px;
+    width: 60%;
+    flex-direction: column;
+    /* border: 2px solid green; */
+}
+.feature-cards{
+    display: flex;
+    max-width: 100%;
+    /* border: 2px solid blue; */
+    margin-top: 3%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width:500px) {
+    .feature-cards{
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        /* border: 2px solid black; */
+    }
+    .app-features-heading{
+        width:100%
+    }
+    .app-features-container{
+        flex-direction: column;
+    }
+    .app-features-container .app-features{
+        max-width: 100%;
+    }
+    .feature-cards .feature-cards-eachbox{
+        /* border: 2px solid red; */
+        width:45%;
+    }
+    
+}
+
+.feature-cards-eachbox{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+    /* border: 2px solid black; */
+}
+.feature-cards-eachbox img{
+    width: 100px;
+    height: 100px;
+}
+.app-feature-image{
+    /* border: 2px solid black; */
+    margin-left: 10%;
+}
+
+
+
+.container-4{
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 4%;
+}
+.container-leftside{
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+    margin-left: 5%;
+    /* border: 2px solid black; */
+    margin-top: 5%; 
+}
+.container-subpart-1{
+    max-width: 60%;
+    /* border: 2px solid black; */
+
+}
+.container-subpart-2{
+    display: flex;
+    margin-top: 6%;
+}
+.container-subpart-3{
+    max-width: 100%;
+   
+    margin-top: 14%;
+    
+}
+.container-subpart-3 li{
+    list-style-type: none;
+    text-align: center;
+}
+.container-rightside{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.service-container{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+.service-container-centerPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 70%;
+    /* border: 2px solid black; */
+}
+.done-icon{
+    color: #3f51b5 !important;
+
+}
+.list-container{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    /* border: 2px solid black ; */
+    
+    
+}
+.mylist-typography{
+    margin-left: 3% !important;
+}
+.click-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.list-container-container-subpart-3{
+    /* border: 2px solid black; */
+    align-items: center;
+    display: flex;
+    max-width: 58%;
+    justify-content: space-between;
+}
+.click-container-container-subpart-3{
+    display: flex;
+    align-items: center;
+    max-width: 25%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+.service-container-para{
+    text-align: center;
+    padding: 0% 20%;
+}
+.demo{
+    margin-left: 5% !important;
+}
+

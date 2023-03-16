@@ -1,0 +1,135 @@
+.price-container{
+    display: flex !important;
+    /* border: 2px solid black !important; */
+    max-width: 100% !important;
+    margin-top: 5% !important;
+}
+.price-container-box{
+    /* border: 2px solid black !important; */
+    display: flex !important;
+    /* flex-basis: 70% !important; */
+    /* gap:30px; */
+    /* justify-content: space-around !important; */
+    justify-content: center;
+    
+}
+.pricing{
+    /* border: 2px solid black !important; */
+    display: flex !important;
+    flex-direction: column !important;
+    cursor: pointer;
+    flex-basis: 20%;
+    /* justify-content: space-around !important; */
+    border-radius: 10px !important ;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 0.5%;
+    border:1px solid white !important;
+
+}
+.pricing:hover{
+    border:1px solid #3f51b5 !important;
+   
+}
+.pricing li{
+    list-style-type: none;
+}
+/* .pricing img{
+    width: 4em;
+    height: 4em;
+} */
+.pricing-heading-container{
+    display: flex;
+}
+/* .pricing-heading{
+    font-size: 1.5rem !important;
+    color: #3f51b5 !important;
+    margin-left: 10% !important;
+} */
+.pricing-desc{
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
+.price-details{
+    display: flex;
+    align-items: flex-end;
+    /* border: 2px solid black; */
+    
+}
+.price-details h1{
+    
+    color: #3f51b5 !important;
+}
+.dollar-month-marginTop{
+    margin-top: 30% !important;
+}
+.list-containerPricing{
+    display: flex;
+    margin-left: 5px !important;
+   
+    
+}
+.ul-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+}
+.price-heading-container{
+    /* border: 2px solid black; */
+}
+.pricing-upBox{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+.pricing-upBox img{
+    width: 4em;
+    height: 4em;
+    
+}
+.pricing-downBox{
+    margin-top: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    margin-left: 5%;
+    
+
+}
+.pricing-upBox-rightpart{
+    margin-left: 4% !important;
+    /* border: 2px solid black; */
+}
+.pricing-upBox-rightpart-downpart{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+
+}
+.myTypography-heading{
+
+    font-size: 1.5rem !important;
+    color: #3f51b5 !important;
+
+}
+.pricing-button{
+    color: #fff !important;
+    background-color: #3f51b5 !important;
+    border-radius: 50px !important;
+    
+}
+.margin-list{
+    margin-left: 6px !important;
+}
+.margin-button{
+    margin-left: 5% !important;
+    margin-bottom: 5%;
+
+}
+.pricing-middleBox{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 1px solid #3f51b5;
+    margin-top: 10%;
+}
